@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diary</title>
+    <link rel="stylesheet" type="text/css" href="stylesfordiary.css">
+    <script src="hide.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://www.hongik.ac.kr/front/images/local/header_logo.png"
+alt="로고" width="230" height="50" align="center" border="0">
+        </div>
+        <div class="header-text">오염일지</div>
+        <nav>
+            <ul>
+                <li><a href="map.html" class="category-btn">오염지도</a></li>
+                <li><a href="realhomepage.html" class="category-btn">돌아가기</a></li>
+                <li><a href="direction.html" class="category-btn">혁명성명</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="separator"></div>
+
+<div class="container">
+    <h1>혁명의 씨앗 관찰일지</h1>
+    
+    <div class="image-container">
+      <img src="images/map.jpg" alt="지도"></div>
+      <br>
+    <div class="content">
+        <button class="toggle-button" onclick="toggleContent(1)">23.5.11</button>
+        <div class="hidden-content" id="content1">
+          <div class="image-container1">
+            <img src="images/diary/5:11/KakaoTalk_Photo_2023-06-03-17-35-03.jpeg" alt="이미지 A">
+            <img src="images/diary/5:11/KakaoTalk_Photo_2023-06-03-17-35-08.jpeg" alt="이미지 B">
+        </div>
+           <br> <p>학교 화분에서 비비추 한포기를 뽑아서 폐가 앞 텃밭에 이식했다.</p><br>
+        </div>
+        
+        <button class="toggle-button" onclick="toggleContent(2)">23.5.12</button>
+        <div class="hidden-content" id="content2">
+          <div class="image-container3">
+            <img src="images/diary/5:12/KakaoTalk_Photo_2023-06-03-17-35-13.jpeg" alt="이미지 A">
+            <img src="images/diary/5:12/KakaoTalk_Photo_2023-06-03-17-35-17.jpeg" alt="이미지 B">
+            <img src="images/diary/5:12/KakaoTalk_Photo_2023-06-04-00-06-18.jpeg" alt="이미지 B">
+        </div>
+        <br>
+        <p>나는 오늘 학교에 위와같은 것을 심었다.</p><br>
+        <div class="image-container1">
+          <img src="images/diary/5:12/KakaoTalk_Photo_2023-06-03-17-35-21.jpeg" alt="이미지 A">
+          <img src="images/diary/5:12/KakaoTalk_Photo_2023-06-03-17-35-27.jpeg" alt="이미지 B">
+      </div>
+         <br> <p>이로써 상추와 비비추의 위치는 뒤바뀌었다.</p><br>
+        </div>
+        
+        <button class="toggle-button" onclick="toggleContent(3)">23.5.14</button>
+        <div class="hidden-content" id="content3">
+          <div class="image-container4">
+            <img src="images/diary/5:14/KakaoTalk_Photo_2023-06-03-17-35-33.jpeg" alt="Image 1">
+            <img src="images/diary/5:14/KakaoTalk_Photo_2023-06-03-17-35-39.jpeg" alt="Image 2">
+            <img src="images/diary/5:14/KakaoTalk_Photo_2023-06-03-17-35-44.jpeg" alt="Image 3">
+          </div>
+          <br><p>이름 모를 모종과 상추가 학교 안에 자리를 잘 잡은듯 하다.</p><br>
+        </div>
+        
+        <button class="toggle-button" onclick="toggleContent(4)">23.5.15</button>
+        <div class="hidden-content" id="content4">
+          <div class="image-container1">
+            <img src="images/diary/5:15/KakaoTalk_Photo_2023-06-03-17-35-48.jpeg" alt="Image 1">
+            <img src="images/diary/5:15/KakaoTalk_Photo_2023-06-03-17-35-53.jpeg" alt="Image 2">
+          </div>
+          <br>
+          <div class="image-container1">
+            <img src="images/diary/5:15/KakaoTalk_Photo_2023-06-03-17-37-18.jpeg" alt="Image 2">
+            <img src="images/diary/5:15/KakaoTalk_Photo_2023-06-03-17-37-14.jpeg" alt="Image 3">
+          </div>
+          <br><p>혁명의 무대를 꾸몄다. 나는 들키지 않아야하지만 누군가는 나의 메시지를 보아야만 하니까.<br>
+          화분에서 재떨이로, 재떨이에서 다시 상추 화분으로 돌아갔다. 학교에 추가적으로 6개의 상추를 더 심었다.</p> 
+          <br>
+          <div class="image-container1">
+            <img src="images/diary/5:15/KakaoTalk_Photo_2023-06-03-17-37-22.jpeg" alt="Image 2">
+            <img src="images/diary/5:15/KakaoTalk_Photo_2023-06-03-17-37-39.jpeg" alt="Image 3">
+          </div> 
+          <br><p>위치가 뒤바뀐 비비추와 상추는 정반대의 양상을 보인다.</p><br>
+        </div>
+        
+        <button class="toggle-button" onclick="toggleContent(5)">23.5.17</button>
+        <div class="hidden-content" id="content5">
+          <div class="image-container">
+            <img src="images/diary/5:17/KakaoTalk_Photo_2023-06-03-17-37-52.jpeg"></div>
+            <br>
+            <p>좋은 소식과 나쁜 소식이 있다. 문헌관 나무에 심었던 적상추 두개가 뽑혀나간줄 알고 있었는데 다른 곳에 옮겨심겨진 것을 발견했다. 아무래도 적상추는 너무 눈에 띄는 것 같다.</p><br>
+            <div class="image-container1">
+              <img src="images/diary/5:17/KakaoTalk_Photo_2023-06-03-17-39-28.jpeg" alt="Image 3">
+              <img src="images/diary/5:17/KakaoTalk_Photo_2023-06-03-17-39-18.jpeg" alt="Image 2">
+            </div>
+            <br>
+            <p>나쁜 소식은 재떨이 화분에 심었던 상추가 전부 뽑혀나갔다는 것이다.</p>
+            <br>
+            <div class="image-container1">
+              <img src="images/diary/5:17/KakaoTalk_Photo_2023-06-03-17-39-23.jpeg" alt="Image 2">
+              <img src="images/diary/5:17/KakaoTalk_Photo_2023-06-03-17-39-32.jpeg" alt="Image 3">
+            </div> 
+            <br>
+            <p>오늘은 청상추 6개를 가져왔는데, 재떨이에 4개를 심고 나머지는 문헌관 나무에 심었다. <br>
+              문헌관 나무는 화분만큼이나 오염이 꼭 필요한 장소다. 이번 청상추는 반드시 이식에 성공해야한다.</p><br>
+          </div>
+
+        <button class="toggle-button" onclick="toggleContent(6)">23.5.18</button>
+        <div class="hidden-content" id="content6">
+          <div class="image-container">
+            <img src="images/diary/5:18/KakaoTalk_Photo_2023-06-03-17-39-36.jpeg"></div>
+            <br>
+            <p>화분에 심은 상추는 은밀하게 잘 자라고 있다.</p>
+            <br>
+            <div class="image-container1">
+              <img src="images/diary/5:18/KakaoTalk_Photo_2023-06-03-17-39-41.jpeg" alt="Image 2">
+              <img src="images/diary/5:18/KakaoTalk_Photo_2023-06-03-17-39-45.jpeg" alt="Image 3">
+            </div> 
+            <br>
+            <p>사람들은 처음엔 꽁초를 버리는 것을 주저하는듯 하다가 다시 전처럼 재떨이로 사용하고 있다. 어떤 사람은 상추 하나의 생장점을 담배로 지졌다.<br>
+            물을 충분히 줬음에도 상태가 영 좋지 못해서 걱정된다.</p>
+        <br>
+          </div>
+        
+        <button class="toggle-button" onclick="toggleContent(7)">23.5.19</button>
+        <div class="hidden-content" id="content7">
+          <div class="image-container4">
+            <img src="images/diary/5:19/KakaoTalk_Photo_2023-06-03-17-41-14.jpeg" alt="Image 1">
+            <img src="images/diary/5:19/KakaoTalk_Photo_2023-06-03-17-41-20.jpeg" alt="Image 2">
+            <img src="images/diary/5:19/KakaoTalk_Photo_2023-06-03-17-41-25.jpeg" alt="Image 3">
+          </div>
+          <br>
+          <p>화분의 상추는 믿을 수 없을만큼 빠르게 자라고 있다. 나는 혁명의 무대에 있는 상추들이 또 다시 담뱃재 세례를 받거나 또 뽑혀나갈까봐 수시로 C동 8층 흡연장을 드나들고 있다.<br>
+          언젠가 사람들이 내가 보내는 메시지를 알아봐줄 날이 올까? 이 상추는 이유가 있어서 심은 것이라는 걸.. 그리고 우리는 너무나도 위험한 권위주의 바이러스를 간과하고 있다는 것을.</p>
+          <br>
+          <div class="image-container">
+            <img src="images/diary/5:19/KakaoTalk_Photo_2023-06-03-17-39-55.jpeg"></div>
+            <br>
+            <p>비비추는 하루가 다르게 시들어가고 있다.</p>
+            <br>
+        </div>
+        
+        <button class="toggle-button" onclick="toggleContent(8)">23.5.22</button>
+        <div class="hidden-content" id="content8">
+          <div class="image-container">
+            <img src="images/diary/5:22/KakaoTalk_Photo_2023-06-03-19-44-48.jpeg"></div>
+            <br>
+            <p>문헌관 나무에 있다가 옮겨 심어진 적상추다. 최근에 학교에서 화단에 퇴비를 뿌렸기 때문에 성장이 가장 빠르다.</p><br>
+            <div class="image-container1">
+              <img src="images/diary/5:22/KakaoTalk_Photo_2023-06-03-01-46-31 008.jpeg" alt="Image 2">
+              <img src="images/diary/5:22/KakaoTalk_Photo_2023-06-03-19-44-58.jpeg" alt="Image 3">
+            </div><br>
+            <p>무관심의 꽁초를 모으기 시작했다. 상추 재떨이를 깨끗하게 치우고나면 사람들이 잠시동안은 사용하지 않는다. 화분으로 바뀌지 않은 다른 재떨이에 모여 담배를 피우는 모습을 관찰할 수 있다.</p>     
+        <br>
+          </div>
+       
+        <button class="toggle-button" onclick="toggleContent(9)">23.5.23</button>
+        <div class="hidden-content" id="content9">
+          <div class="image-container1">
+            <img src="images/diary/5:23/KakaoTalk_Photo_2023-06-03-01-46-25 007.jpeg" alt="Image 2">
+            <img src="images/diary/5:23/KakaoTalk_Photo_2023-06-03-19-39-12.jpeg" alt="Image 3">
+          </div><br>
+          <p>누군가가 화단에 새 깃털을 꽂아두고 갔다. 흥미롭다. 아몬드 브리즈 팩은 그냥 버렸다. 연구실에 벌레가 꼬이는 것만은 피하고 싶기 때문이다.</p>   
+      <br>
+      <div class="image-container1">
+        <img src="images/diary/5:23/KakaoTalk_Photo_2023-06-03-17-41-30.jpeg" alt="Image 2">
+        <img src="images/diary/5:23/KakaoTalk_Photo_2023-06-03-17-41-34.jpeg" alt="Image 3">
+      </div><br>
+      <p>추가로 상추 6개를 더 심었다. 대학교에 삽 들고 땅파고 다니면 누구 하나쯤은 뭐라고 할 줄 알았는데 아무도 신경쓰지 않아서 그냥 낮에 심었다.</p><br>
+        </div>
+        
+        <button class="toggle-button" onclick="toggleContent(10)">23.5.25</button>
+        <div class="hidden-content" id="content10">
+          <div class="image-container4">
+            <img src="images/diary/5:25/KakaoTalk_Photo_2023-06-03-01-46-20 006.jpeg" alt="Image 2">
+            <img src="images/diary/5:25/KakaoTalk_Photo_2023-06-03-17-47-45.png" alt="Image 3">
+            <img src="images/diary/5:25/KakaoTalk_Photo_2023-06-03-17-41-39.jpeg" alt="Image 1">
+          </div><br>
+          <p>꽁초 양이 많아졌다. 또 누군가가 상추에 담배를 지졌다. 다행히 생장점은 아니다.</p><br>
+          <div class="image-container4">
+            <img src="images/diary/5:25/KakaoTalk_Photo_2023-06-03-17-47-20.png" alt="Image 1">
+            <img src="images/diary/5:25/KakaoTalk_Photo_2023-06-03-17-47-32.png" alt="Image 2">
+            <img src="images/diary/5:25/KakaoTalk_Photo_2023-06-03-17-41-44.jpeg" alt="Image 3">
+          </div>
+          <br>
+          <p>잘 자라고 있던 상추들이 하루 사이에 으스러져 있다. 누군가 일부러 그랬다면 이유가 뭘까? 눈에 띄는 장소에 있는 상추들만 훼손되었다. 내가 하는 일이 과연 의미가 있는걸까?</p><br>
+        </div>
+
+        <button class="toggle-button" onclick="toggleContent(11)">23.5.29</button>
+        <div class="hidden-content" id="content11">
+          <div class="image-container4">
+            <img src="images/diary/5:29/KakaoTalk_Photo_2023-06-03-01-46-15 005.jpeg" alt="Image 2">
+            <img src="images/diary/5:29/KakaoTalk_Photo_2023-06-03-17-49-20.jpeg" alt="Image 3">
+            <img src="images/diary/5:29/KakaoTalk_Photo_2023-06-03-17-49-31.jpeg" alt="Image 3">
+          </div><br>
+          <p>비가 왔기 때문인지 혁명의 무대에 심은 청상추가 믿을 수 없을만큼 많이 자랐다. 생장점을 다친 상추만 잘 자라지 못하고 있다.<br>
+          껌이 인상적이다.</p><br>
+          <div class="image-container1">
+            <img src="images/diary/5:29/KakaoTalk_Photo_2023-06-03-17-47-51.jpeg" alt="Image 2">
+            <img src="images/diary/5:29/KakaoTalk_Photo_2023-06-03-17-48-55.jpeg" alt="Image 3">
+          </div><br>
+          <p>눈에 띄지 않는 곳에 심었던 상추들은 무사하다.</p><br>
+          <div class="image-container1">
+            <img src="images/diary/5:29/KakaoTalk_Photo_2023-06-03-17-49-54.jpeg" alt="Image 2">
+            <img src="images/diary/5:29/KakaoTalk_Photo_2023-06-03-17-50-01.png" alt="Image 3">
+          </div><br>
+          <p>대부분의 사람들은 여전히 상추에 관심이 없다. 재떨이로 이용하고 있다. 한편 화분에 관심을 가지고 이게 뭐냐고 묻는 사람들도 조금씩 생기고 있다.</p><br>
+        </div>
+        
+        <button class="toggle-button" onclick="toggleContent(12)">23.5.30</button>
+        <div class="hidden-content" id="content12">
+          <div class="image-container4">
+            <img src="images/diary/5:30/KakaoTalk_Photo_2023-06-03-01-46-02 003.jpeg" alt="Image 2">
+            <img src="images/diary/5:30/KakaoTalk_Photo_2023-06-03-01-46-10 004.jpeg" alt="Image 3">
+            <img src="images/diary/5:30/KakaoTalk_Photo_2023-06-03-17-50-28.jpeg" alt="Image 3">
+          </div><br>
+          <p>오늘은 담배꽁초를 두번 수집했다.</p><br>
+          <div class="image-container1">
+            <img src="images/diary/5:30/KakaoTalk_Photo_2023-06-03-17-50-17.jpeg" alt="Image 2">
+            <img src="images/diary/5:30/KakaoTalk_Photo_2023-06-03-17-50-08.jpeg" alt="Image 3">
+          </div><br>
+          <p>담배꽁초를 맞아서 우그러진 잎사귀를 조금 제거했다. 훼손되었던 상추에 물을 열심히 줬더니 많이 회복되었다. 눈에 띄지 않게 뒤쪽에 심은 상추는 많이 자라서 넘치기까지 한다. <br>
+            누가, 왜 상추를 훼손했을까. 모든 상추의 위치를 들킨건 아니라 정말 다행이다.</p><br>
+        </div>
+        
+        <button class="toggle-button" onclick="toggleContent(13)">23.5.31</button>
+        <div class="hidden-content" id="content13">
+          <div class="image-container1">
+          <img src="images/diary/5:31/KakaoTalk_Photo_2023-06-03-01-46-02 002.jpeg" alt="Image 2">
+          <img src="images/diary/5:31/KakaoTalk_Photo_2023-06-03-17-50-46.jpeg" alt="Image 3">
+        </div><br>
+        <p>수확을 해도 될만큼 자랐다. 그런데.. 먹어도 될까?</p><br>
+
+        <div class="image-container1">
+          <img src="images/diary/5:31/KakaoTalk_Photo_2023-06-03-17-50-52.jpeg" alt="Image 2">
+          <img src="images/IMG_3389.JPG" alt="Image 3">
+        </div><br>
+        <p>메시지가 잘 전달되고 있는 것 같지 않아서 특단의 조치를 취했다. 부디 내가 징계나 눈총을 받지 않으면서 사람들이 나의 뜻을 알아줬으면 좋겠다. </p>
+      </div><br>
+    
+    </div>
+   
+</div>
+<br>
+<footer>
+    <div class="footer-container">
+      <div class="logo">
+        <img src="https://www.hongik.ac.kr/front/images/local/header_logo.png" alt="로고">
+      </div>
+      <div class="categories">
+        <a href="map.html">오염지도</a>
+        <a href="realhomepage.html">돌아가기</a>
+        <a href="direction.html">혁명성명</a>
+      </div>
+      <div class="contact">
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
